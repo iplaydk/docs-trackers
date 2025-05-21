@@ -151,7 +151,7 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 
 ## 4. Tracker Settings (pre-configured on install and optional)
 
-![f1-tracker-settings](https://github.com/user-attachments/assets/87485793-198c-4537-b6dd-4a294b1ddffa)
+![image_f1_settings](https://github.com/user-attachments/assets/72ecef42-5ba7-4930-a384-a27521b54a29)
 
 The F1® 24 Tracker allows you to adjust specific tracking and reporting settings within the game. To access the settings, use the keyboard shortcut **Ctrl + Alt + O + P**. The following configurations are available:
 
