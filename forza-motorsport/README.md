@@ -22,7 +22,7 @@ The **Forza Tracker** is a companion application used to track race and telemetr
 
 The primary use case for the Tracker is during gaming events/expos, such as Spillexpo, Dreamhack and Gamebox Festival. This tracker integrates with the game and delivers accurate tracking data, allowing our partners to organize tournaments and challenges during an event.
 
-This guide will walk you through the initial setup, usage, and best practices for integrating our Tracker with Forza. It covers everything from installation to troubleshooting, ensuring that new partners can get started quickly and experienced users can take full advantage of its features.
+This guide will walk you through the initial setup, usage, and best practices for integrating our Tracker with **Forza**. It covers everything from installation to troubleshooting, ensuring that new partners can get started quickly and experienced users can take full advantage of its features.
 
 ---
 
@@ -52,6 +52,7 @@ Before setting up the Forza Tracker, ensure the following:
 
 2. **Installation Options**:
 
+   - When running the installer, Windows may display a security warning stating "Windows protected your PC" because the app doesn't have a verified publisher. Click on "More info" and then select "Run anyway" to proceed with the installation.
    - During installation, select **"Anyone who uses this computer"** to make the tracker accessible for all user accounts.
    - Choose a convenient installation location. This can be anywhere on your PC.
 
@@ -73,7 +74,8 @@ To ensure the tracker works correctly, you must configure **Forza Motorsport** i
    - Launch Forza Motorsport and navigate to **Play** > **Main Menu** > **Race** > **Free Play** > **Advanced Event Setup**.
 
 2. **Data Out Settings**:
-![dataOut](https://github.com/user-attachments/assets/34a7afdf-a689-43e9-81f4-edad603fef13)
+   ![dataOut](https://github.com/user-attachments/assets/34a7afdf-a689-43e9-81f4-edad603fef13)
+
    - Go to **Settings** > **Gameplay & HUD** and scroll to the bottom.
    - Set **Data Out** to **On**.
    - **Data Out IP Address** should be set to **127.0.0.1**.
@@ -180,6 +182,7 @@ The Forza Tracker allows you to adjust specific tracking and reporting settings 
 - **Tracker Not Opening**: If the tracker does not open from the taskbar, ensure it was installed properly and try launching it again.
 - **Incorrect Timing in First Race**: Always remember that the first race will not be timed correctly. After the initial round, the system will function as expected.
 - **Full-Screen Tracker Locking You Out**: Since the tracker runs full-screen, it can lock you out of the desktop. To exit, use **Alt+Tab** or the **Windows button** to access the taskbar.
+- **Overlay Not Disappearing After QR Scan**: If the QR code overlay doesn't disappear after scanning, you'll need to restart the tracker application. Don't worry about your settings - they will be remembered when you relaunch the app.
 
 ### Best Practices:
 
