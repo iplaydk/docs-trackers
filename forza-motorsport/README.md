@@ -52,6 +52,8 @@ Before setting up the Forza Tracker, ensure the following:
 
 2. **Installation Options**:
 
+   ![run_anyway](https://github.com/user-attachments/assets/3da59261-236e-41e5-917d-bee8cc418914)
+
    - When running the installer, Windows may display a security warning stating "Windows protected your PC" because the app doesn't have a verified publisher. Click on "More info" and then select "Run anyway" to proceed with the installation.
    - During installation, select **"Anyone who uses this computer"** to make the tracker accessible for all user accounts.
    - Choose a convenient installation location. This can be anywhere on your PC.
