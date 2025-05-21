@@ -84,15 +84,15 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 
 ![image (2)](https://github.com/user-attachments/assets/6f6bc029-2ed3-4561-8b23-5f694c6f934d)
 
-   - Go to **Settings** > **Telemetry Settings**.
-   - Set **UDP Telemetry** to **On**.
-   - Set **UDP Broadcast Mode** to **Off**.
-   - Set **UDP IP Address** to **127.0.0.1**.
-   - Set **UDP Port** to **20777**.
-   - Set **UDP Send Rate** to **20 Hz**.
-   - Set **UDP Format** to **2024**.
-   - Set **Your Telemetry** to **Public**.
-   - Set **Show player names** to **Off**.
+- Go to **Settings** > **Telemetry Settings**.
+- Set **UDP Telemetry** to **On**.
+- Set **UDP Broadcast Mode** to **Off**.
+- Set **UDP IP Address** to **127.0.0.1**.
+- Set **UDP Port** to **20777**.
+- Set **UDP Send Rate** to **20 Hz**.
+- Set **UDP Format** to **2024**.
+- Set **Your Telemetry** to **Public**.
+- Set **Show player names** to **Off**.
 
 4. **Configure Racing Wheel** (for Logitech G29/G920/other wheels):
 
@@ -173,6 +173,7 @@ The F1® 24 Tracker allows you to adjust specific tracking and reporting setting
 - **Incorrect Timing in First Race**: Always remember that the first race will not be timed correctly. After the initial round, the system will function as expected.
 - **Full-Screen Tracker Locking You Out**: Since the tracker runs full-screen, it can lock you out of the desktop. To exit, use **Alt+Tab** or the **Windows button** to access the taskbar.
 - **Overlay Not Disappearing After QR Scan**: If the QR code overlay doesn't disappear after scanning, you'll need to restart the tracker application. Don't worry about your settings - they will be remembered when you relaunch the app.
+- **Settings are not changes**: Restart the tracker, change the settings, and finally restart it again. Sometimes the settings needs a couple of restarts before applying, especially if the game has been running for a while already.
 
 ### Best Practices:
 
@@ -190,25 +191,17 @@ The F1® 24 Tracker allows you to adjust specific tracking and reporting setting
 
 The first race is used to calibrate the tracker. Times for the first round are inaccurate, but all subsequent races will be tracked correctly.
 
-### Q2: Can I use the tracker with any car?
+### Q2: What should I do if the tracker locks my screen?
 
-Technically, yes. But remember to adjust it according to your race settings. **McLaren 1976 #11 M23**.
+Since the tracker runs full-screen, use the **Alt+Tab** or **Windows button** to regain access to your desktop or taskbar. Worst case use **Alt+F4** if you know the tracker window is currently the active one.
 
-### Q3: What should I do if the tracker locks my screen?
-
-Since the tracker runs full-screen, use the **Alt+Tab** or **Windows button** to regain access to your desktop or taskbar.
-
-### Q4: Can I configure my own race settings?
-
-While it's possible to adjust settings in Forza, the tracker is optimized for the configurations provided in this guide. Deviating from the recommended setup may result in inaccurate tracking data.
-
-### Q5: What do I do if the QR code doesn’t scan?
+### Q3: What do I do if the QR code doesn’t scan?
 
 Ensure that your QR scanner is working properly and that the tracker is running. It is important that the device has a working internet connection (F.e. WiFi or 3G/4G/5G).
 
-If the problem persists, try restarting the tracker or using another device to scan the code.
+If the problem persists, try restarting the tracker or using another device to scan the code. We have experienced very few older phones not loading web app, resulting in the QR overlay not registering the player.
 
-### Q6: How can I test with many different users on my phone?
+### Q4: How can I test with many different users on my phone?
 
 On iPhone and Safari, you can change to Private browsing before scanning the QR code. Then your phone will not remember your sign up.
 
