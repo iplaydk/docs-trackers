@@ -82,6 +82,8 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 
 3. **Configure Telemetry Settings**:
 
+![image (2)](https://github.com/user-attachments/assets/6f6bc029-2ed3-4561-8b23-5f694c6f934d)
+
    - Go to **Settings** > **Telemetry Settings**.
    - Set **UDP Telemetry** to **On**.
    - Set **UDP Broadcast Mode** to **Off**.
