@@ -51,7 +51,7 @@ Before setting up the F1® 24 Tracker, ensure the following:
    - Visit the provided link to download the F1® 24 Tracker.
 
 2. **Installation Options**:
-3. 
+   
 ![run_anyway](https://github.com/user-attachments/assets/3da59261-236e-41e5-917d-bee8cc418914)
 
    - When running the installer, Windows may display a security warning stating "Windows protected your PC" because the app doesn't have a verified publisher. Click on "More info" and then select "Run anyway" to proceed with the installation.
