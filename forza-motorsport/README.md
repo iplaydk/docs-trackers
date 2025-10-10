@@ -87,7 +87,7 @@ To ensure the tracker works correctly, you must configure **Forza Motorsport** i
 3. **Choose a Car**:
 
    - In the car selection menu, select **Buy or Rent Cars**.
-   - Choose the **McLaren 1976 #11 M23** and select **Rent**.
+   - Choose the **McLaren P1 GTR** and select **Rent**.
 
 4. **Set Up Race Parameters**:
 
@@ -103,15 +103,17 @@ To ensure the tracker works correctly, you must configure **Forza Motorsport** i
 5. **Rules Settings**:
 
    - Rules Preset: **Custom**
-   - Damage: **Cosmetic Only**
+   - Simulation Level: **Cosmetic Only**
    - Penalty: **Moderate**
+   - Forza Race Regulations - **Off**
    - Rewind: **Off**
    - Race Start: **Rolling**
 
-6. **Additional Configurations**:
+6. **On Track Settings and Checks**:
+   Once loaded into the track, you will need to adjust the fuel settings.
 
-   - Fuel & Tire: **Fuel 100%**
-   - Driving Assists: **Moderate**
+   - Go to **CAR** and **Fuel and Tire**.
+   - Set **Fuel load** to **5%** and **Tires** to **Soft**
 
 7. **Start the Race**:
    - Accept all settings and begin the race.
@@ -159,19 +161,24 @@ To ensure the tracker works correctly, you must configure **Forza Motorsport** i
 
 The Forza Tracker allows you to adjust specific tracking and reporting settings within the game. To access the settings, use the keyboard shortcut **Ctrl + Alt + O + P**. The following configurations are available:
 
-1. **Google Sheet Tab**: Specify the Google Sheet tab where user information should be sent. The Google Sheet document is pre-defined.
+1. **Race Parameters**:
 
-2. **Race Parameters**:
+   - **Total number of Laps allowed**: Set the maximum number of laps each user can complete in a session before the QR code reappears.
+   - **Total race time in Seconds**: Define the maximum time limit for each race session before the QR code reappears.
 
-   - **Total Laps**: Set the maximum number of laps each user can complete in a session before the QR code reappears.
-   - **Maximum Time (Minutes)**: Define the maximum time limit for each race session before the QR code reappears.
+2. **Forza Lap Rules**
 
-3. **Conditional Data Submission**:
-   - **Track Name**: Specify the track name required for data submission.
-   - **Car Name**: Define the car name that must be used to validate data submission.
-   - **Fuel Level**: Set the minimum required fuel level for a lap to be recorded.
-   - **Invalid Laps**: Toggle whether or not laps marked as invalid (e.g., for track cutting) should be included in the submission.
-   - **Lap Time Filter**: Set a lap time threshold to exclude laps that are above or below a specified number of seconds.
+   - **Min lap Time in Second**s: Don't transfer any times faster than this to the Google Sheet.
+   - **Max lap time in Seconds**: Don't transfer any times slower than this to the Google Sheet.
+   - **Track Name**: Only track allowed to used for the challenge. F.e. Grand Oak Raceway - Club Circuit
+   - **Car Name**: Only car allowed to be used for the challenge. F.e. McLaren P1 GTR.
+   - **Include Invalid Laps**: Allow times even if the user goes of the track, cuts corners etc.
+
+3. Forza Motorsport Telemetry port
+
+   - This has to be the same as in the game, else data won't be transferred to the leaderboard or Google Sheets.
+
+4. **Google Sheet location**: Specify the Google Sheet tab where user information should be sent. The Google Sheet document is pre-defined.
 
 ---
 
@@ -204,7 +211,7 @@ The first race is used to calibrate the tracker. Times for the first round are i
 
 ### Q2: Can I use the tracker with any car?
 
-Technically, yes. But remember to adjust it according to your race settings. **McLaren 1976 #11 M23**.
+Technically, yes. But remember to adjust it according to your race settings. **McLaren P1 GTR**.
 
 ### Q3: What should I do if the tracker locks my screen?
 
