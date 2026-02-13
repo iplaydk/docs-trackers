@@ -1,6 +1,11 @@
-# Documentation
+# Tracker Setup Guides
 
-This repository contains comprehensive setup guides for game tracking applications used at gaming events and expos. Each guide provides detailed instructions for installing, configuring, and troubleshooting our custom tracking solutions that allow for competitive gameplay and tournament management. The documentation covers game-specific requirements, system configuration, and best practices to ensure seamless integration with our tracking systems.
+This repository contains setup guides for game tracking applications used at gaming events and expos. Each guide covers installation, configuration, and troubleshooting for our tracking solutions that enable competitive gameplay and tournament management.
 
-- [Forza Motorsport »](https://github.com/iplaydk/docs-trackers/tree/main/forza-motorsport)
-- [EA SPORTS™ F1® 24 »](https://github.com/iplaydk/docs-trackers/tree/main/f1-24)
+## Available Guides
+
+| Game                  | Description                               |                                        Guide                                        |
+| :-------------------- | :---------------------------------------- | :---------------------------------------------------------------------------------: |
+| **Forza Motorsport**  | Tracker setup for Forza Motorsport events | [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/forza-motorsport) |
+| **EA SPORTS™ F1® 24** | Tracker setup for F1® 24 events           |      [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/f1-24)       |
+| **EA SPORTS™ F1® 25** | Tracker setup for F1® 25 events           |      [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/f1-25)       |

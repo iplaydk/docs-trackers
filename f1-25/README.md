@@ -1,12 +1,12 @@
-# EA SPORTS™ F1® 24 Tracker Setup Guide
+# EA SPORTS™ F1® 25 Tracker Setup Guide
 
 ## Table of Contents
 
 1. [Overview](#overview)
 2. [Prerequisites and Dependencies](#prerequisites-and-dependencies)
 3. [Installation and Setup Instructions](#installation-and-setup-instructions)
-   - [Step 1: Download and Install the F1 24 Tracker](#step-1-download-and-install-the-f1-tracker)
-   - [Step 2: Configure EA SPORTS™ F1® 24 and Game Settings](#step-2-configure-f1-and-game-settings)
+   - [Step 1: Download and Install the F1 25 Tracker](#step-1-download-and-install-the-f1-tracker)
+   - [Step 2: Configure EA SPORTS™ F1® 25 and Game Settings](#step-2-configure-f1-and-game-settings)
    - [Step 3: Using the Tracker During the Game](#step-3-using-the-tracker-during-the-game)
 4. [Tracker Settings](#tracker-settings)
 5. [Common Pitfalls and Best Practices](#common-pitfalls-and-best-practices)
@@ -18,11 +18,11 @@
 
 ## 1. Overview
 
-The **F1® 24 Tracker** is a companion application used to track race and telemetry data during specific events in **EA SPORTS™ F1® 24**. It is designed to enhance the competitive experience by extracting real-time data, lap times, and driver performances.
+The **F1® 25 Tracker** is a companion application used to track race and telemetry data during specific events in **EA SPORTS™ F1® 25**. It is designed to enhance the competitive experience by extracting real-time data, lap times, and driver performances.
 
 The primary use case for the Tracker is during gaming events and expos, such as Spillexpo, Dreamhack, and Gamebox Festival. This tracker integrates with the game and delivers accurate tracking data, allowing our partners to organize tournaments and challenges during an event.
 
-This guide will walk you through the initial setup, usage, and best practices for integrating our Tracker with **F1® 24**. It covers everything from installation to troubleshooting, ensuring that new partners can get started quickly and experienced users can take full advantage of its features.
+This guide will walk you through the initial setup, usage, and best practices for integrating our Tracker with **F1® 25**. It covers everything from installation to troubleshooting, ensuring that new partners can get started quickly and experienced users can take full advantage of its features.
 
 ---
 
@@ -30,11 +30,11 @@ This guide will walk you through the initial setup, usage, and best practices fo
 
 ## 2. Prerequisites and Dependencies
 
-Before setting up the F1® 24 Tracker, ensure the following:
+Before setting up the F1® 25 Tracker, ensure the following:
 
 ### Prerequisites:
 
-- **Game**: EA SPORTS™ F1® 24 installed and configured on your PC.
+- **Game**: EA SPORTS™ F1® 25 installed and configured on your PC.
 - **Operating System**: Windows 10 or higher (the tracker only supports Windows at this time).
 - **Hardware**: Mobile phone with a QR code reader (e.g., the Camera app).
 
@@ -44,39 +44,35 @@ Before setting up the F1® 24 Tracker, ensure the following:
 
 ## 3. Installation and Setup Instructions
 
-### <a name="step-1-download-and-install-the-f1-tracker"></a> Step 1: Download and Install the F1 24 Tracker
+### <a name="step-1-download-and-install-the-f1-tracker"></a> Step 1: Download and Install the F1 25 Tracker
 
 1. **Download the Tracker**:
-
-   - Visit the provided link to download the F1® 24 Tracker.
+   - Visit the provided link to download the F1® 25 Tracker.
 
 2. **Installation Options**:
-   
+
 ![run_anyway](https://github.com/user-attachments/assets/3da59261-236e-41e5-917d-bee8cc418914)
 
-   - When running the installer, Windows may display a security warning stating "Windows protected your PC" because the app doesn't have a verified publisher. Click on "More info" and then select "Run anyway" to proceed with the installation.
-   - During installation, select **"Anyone who uses this computer"** to make the tracker accessible for all user accounts.
-   - Choose a convenient installation location. This can be anywhere on your PC.
+- When running the installer, Windows may display a security warning stating "Windows protected your PC" because the app doesn't have a verified publisher. Click on "More info" and then select "Run anyway" to proceed with the installation.
+- During installation, select **"Anyone who uses this computer"** to make the tracker accessible for all user accounts.
+- Choose a convenient installation location. This can be anywhere on your PC.
 
 > **Note**: Do not open the tracker yet. Proceed to set up the game first.
 
 3. **Taskbar Shortcut**:
-
    - Before launching the tracker, **pin it to the Windows Taskbar** for easy access. (optional)
    - The tracker will run in full-screen mode and cannot be closed from within the application. To close it, press the **Windows button** to open the taskbar, hover over the taskbar, and right-click the tracker to close.
 
 ---
 
-### <a name="step-2-configure-f1-and-game-settings"></a> Step 2: Configure EA SPORTS™ F1® 24 and Game Settings
+### <a name="step-2-configure-f1-and-game-settings"></a> Step 2: Configure EA SPORTS™ F1® 25 and Game Settings
 
-To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24** in a specific way. Follow the steps below:
+To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 25** in a specific way. Follow the steps below:
 
 1. **Open the Game**:
-
-   - Launch EA SPORTS™ F1® 24.
+   - Launch EA SPORTS™ F1® 25.
 
 2. **Configure Display Settings**:
-
    - Go to **Settings** > **Graphics Settings**.
    - Go to **Video Mode**
    - Set the display mode to **Windowed (Fullscreen)** (very important for the tracker overlay to work).
@@ -96,8 +92,9 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 - Set **Your Telemetry** to **Public**.
 - Set **Show player names** to **Off**.
 
-4. **Configure Racing Wheel** (for Logitech G29/G920/other wheels):
+> **Important**: The **UDP Format** must be set to **2024**, not 2025. The tracker relies on the 2024 telemetry format. Do not change this value even though you are running F1® 25.
 
+4. **Configure Racing Wheel** (for Logitech G29/G920/other wheels):
    - Go to **Settings** > **Controls, Vibration & Force Feedback**.
    - Select your Racing wheel from the device list, press **Enter** then **Edit**.
    - Find the button currently assigned to **Pause**.
@@ -106,9 +103,8 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
    - Apply and save these settings.
 
 5. **Set Up Time Trial Parameters**:
-
    - In the main menu select **F1 World** and press **Play**.
-   - Select **Time Trial** from the list and then **F1 2024** from the next screen.
+   - Select **Time Trial** from the list and then **F1 2025** from the next screen.
    - Select the team (**McLaren** or as specified for your event).
    - Choose a track (**Monza** or as specified for your event).
    - Time Trial mode allows unlimited laps and never ends until the player exits.
@@ -119,30 +115,25 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 ### <a name="step-3-using-the-tracker-during-the-game"></a> Step 3: Using the Tracker During the Game
 
 1. **Open the Tracker**:
-
    - Once the race begins, **press `Esc`** to pause the game.
    - **Alt+Tab** to tab out of the game temporarily.
 
-2. **Launch the F1® 24 Tracker**:
-
+2. **Launch the F1® 25 Tracker**:
    - Open the tracker from the Windows Taskbar.
    - The tracker will display a **QR code**.
 
 > **Firewall Settings**: Windows might ask you to either allow or block the app through Windows Firewall. It is essential that you allow it through the Firewall as it connects to our online services.
 
-3. **Configure the F1® 24 Tracker**
-
+3. **Configure the F1® 25 Tracker**
    - **Ctrl + Alt + O + P** allows you to configure the tracker.
    - On first use, set the Google Sheet tab to an incorrect sheet and press **Save**. Then change to the correct sheet and save again. This ensures data is sent correctly.
    - The rest of the data is pre-configured on install for your event.
    - More information in step **4. Tracker Settings**
 
 4. **Scan the QR Code**:
-
    - Use your mobile device to scan the code.
 
 5. **Return to the Game**:
-
    - Press **Alt+Tab** to return to the game.
 
 > **Important**: The first round should be played by a staff member as the initial round will have incorrect timing. After the first round, tracking will operate accurately for all future races.
@@ -155,10 +146,9 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 24
 
 ![image_f1_settings](https://github.com/user-attachments/assets/72ecef42-5ba7-4930-a384-a27521b54a29)
 
-The F1® 24 Tracker allows you to adjust specific tracking and reporting settings within the game. To access the settings, use the keyboard shortcut **Ctrl + Alt + O + P**. The following configurations are available:
+The F1® 25 Tracker allows you to adjust specific tracking and reporting settings within the game. To access the settings, use the keyboard shortcut **Ctrl + Alt + O + P**. The following configurations are available:
 
 1. **Race Parameters**:
-
    - **Total Laps**: Set the maximum number of laps each user can complete in a session before the QR code reappears.
    - **Maximum Time (Minutes)**: Define the maximum time limit for each race session before the QR code reappears.
 
@@ -170,7 +160,7 @@ The F1® 24 Tracker allows you to adjust specific tracking and reporting setting
 
 ### Common Pitfalls:
 
-- **Overlay Not Working**: The tracker overlay only works if F1® 24 is running in **Fullscreen Windowed** mode. If you can't see the overlay, check your game's display settings and ensure it's not set to Exclusive Fullscreen.
+- **Overlay Not Working**: The tracker overlay only works if F1® 25 is running in **Fullscreen Windowed** mode. If you can't see the overlay, check your game's display settings and ensure it's not set to Exclusive Fullscreen.
 - **Tracker Not Opening**: If the tracker does not open from the taskbar, ensure it was installed properly and try launching it again.
 - **Incorrect Timing in First Race**: Always remember that the first race will not be timed correctly. After the initial round, the system will function as expected.
 - **Full-Screen Tracker Locking You Out**: Since the tracker runs full-screen, it can lock you out of the desktop. To exit, use **Alt+Tab** or the **Windows button** to access the taskbar.
@@ -197,7 +187,7 @@ The first race is used to calibrate the tracker. Times for the first round are i
 
 Since the tracker runs full-screen, use the **Alt+Tab** or **Windows button** to regain access to your desktop or taskbar. Worst case use **Alt+F4** if you know the tracker window is currently the active one.
 
-### Q3: What do I do if the QR code doesn’t scan?
+### Q3: What do I do if the QR code doesn't scan?
 
 Ensure that your QR scanner is working properly and that the tracker is running. The device must have a working internet connection (e.g., Wi-Fi or mobile data).
 
@@ -209,4 +199,4 @@ On iPhone and Safari, you can change to Private browsing before scanning the QR 
 
 ---
 
-This guide should give you everything you need to get the **F1® 24 Tracker** up and running with EA SPORTS™ F1® 24. If you encounter issues that are not addressed here, consult the project’s support team for further assistance.
+This guide should give you everything you need to get the **F1® 25 Tracker** up and running with EA SPORTS™ F1® 25. If you encounter issues that are not addressed here, consult the project's support team for further assistance.

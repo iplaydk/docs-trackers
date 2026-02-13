@@ -20,7 +20,7 @@
 
 The **Forza Tracker** is a companion application used to track race and telemetry data during specific events in **Forza Motorsport**. It is designed to enhance the competitive experience by extracting real-time data, lap times, and driver performances.
 
-The primary use case for the Tracker is during gaming events/expos, such as Spillexpo, Dreamhack and Gamebox Festival. This tracker integrates with the game and delivers accurate tracking data, allowing our partners to organize tournaments and challenges during an event.
+The primary use case for the Tracker is during gaming events and expos, such as Spillexpo, Dreamhack, and Gamebox Festival. This tracker integrates with the game and delivers accurate tracking data, allowing our partners to organize tournaments and challenges during an event.
 
 This guide will walk you through the initial setup, usage, and best practices for integrating our Tracker with **Forza**. It covers everything from installation to troubleshooting, ensuring that new partners can get started quickly and experienced users can take full advantage of its features.
 
@@ -36,7 +36,7 @@ Before setting up the Forza Tracker, ensure the following:
 
 - **Game**: Forza Motorsport installed and configured on your PC.
 - **Operating System**: Windows 10 or higher (the tracker only supports Windows at this time).
-- **Hardware**: Mobile Phone with QR code reader (f.e. Camera app).
+- **Hardware**: Mobile phone with a QR code reader (e.g., the Camera app).
 
 ---
 
@@ -138,7 +138,7 @@ To ensure the tracker works correctly, you must configure **Forza Motorsport** i
 3. **Configure the Forza Tracker**
 
    - **Ctrl + Alt + O + P** allows you to configure the tracker.
-   - First time, set the Google Sheet Tab to the wrong Sheet. Press **Save** and then re-save with the right one. This is to ensure that the data is sending correctly.
+   - On first use, set the Google Sheet tab to an incorrect sheet and press **Save**. Then change to the correct sheet and save again. This ensures data is sent correctly.
    - The rest of the data is pre-configured on install for your event.
    - More information in step **4. Tracker Settings**
 
@@ -168,15 +168,15 @@ The Forza Tracker allows you to adjust specific tracking and reporting settings 
 
 2. **Forza Lap Rules**
 
-   - **Min lap Time in Second**s: Don't transfer any times faster than this to the Google Sheet.
-   - **Max lap time in Seconds**: Don't transfer any times slower than this to the Google Sheet.
-   - **Track Name**: Only track allowed to used for the challenge. F.e. Grand Oak Raceway - Club Circuit
-   - **Car Name**: Only car allowed to be used for the challenge. F.e. McLaren P1 GTR.
-   - **Include Invalid Laps**: Allow times even if the user goes of the track, cuts corners etc.
+   - **Min Lap Time in Seconds**: Don't transfer any times faster than this to the Google Sheet.
+   - **Max Lap Time in Seconds**: Don't transfer any times slower than this to the Google Sheet.
+   - **Track Name**: Only track allowed to be used for the challenge, e.g., Grand Oak Raceway - Club Circuit.
+   - **Car Name**: Only car allowed to be used for the challenge, e.g., McLaren P1 GTR.
+   - **Include Invalid Laps**: Allow times even if the user goes off the track, cuts corners, etc.
 
-3. Forza Motorsport Telemetry port
+3. **Forza Motorsport Telemetry Port**
 
-   - This has to be the same as in the game, else data won't be transferred to the leaderboard or Google Sheets.
+   - This must match the port configured in the game. If it doesn't, data won't be transferred to the leaderboard or Google Sheets.
 
 4. **Google Sheet location**: Specify the Google Sheet tab where user information should be sent. The Google Sheet document is pre-defined.
 
@@ -223,7 +223,7 @@ While it's possible to adjust settings in Forza, the tracker is optimized for th
 
 ### Q5: What do I do if the QR code doesn’t scan?
 
-Ensure that your QR scanner is working properly and that the tracker is running. It is important that the device has a working internet connection (F.e. WiFi or 3G/4G/5G).
+Ensure that your QR scanner is working properly and that the tracker is running. The device must have a working internet connection (e.g., Wi-Fi or mobile data).
 
 If the problem persists, try restarting the tracker or using another device to scan the code.
 
