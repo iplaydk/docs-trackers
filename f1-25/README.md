@@ -126,7 +126,6 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 25
 
 3. **Configure the F1® 25 Tracker**
    - **Ctrl + Alt + O + P** allows you to configure the tracker.
-   - On first use, set the Google Sheet tab to an incorrect sheet and press **Save**. Then change to the correct sheet and save again. This ensures data is sent correctly.
    - The rest of the data is pre-configured on install for your event.
    - More information in step **4. Tracker Settings**
 
