@@ -143,7 +143,7 @@ To ensure the tracker works correctly, you must configure **EA SPORTS™ F1® 25
 
 ## 4. Tracker Settings (pre-configured on install and optional)
 
-![image_f1_settings](https://github.com/user-attachments/assets/72ecef42-5ba7-4930-a384-a27521b54a29)
+<img width="2559" height="1438" alt="tracker_settings" src="https://github.com/user-attachments/assets/e4a7b906-91cc-413f-a55b-310be19f305d" />
 
 The F1® 25 Tracker allows you to adjust specific tracking and reporting settings within the game. To access the settings, use the keyboard shortcut **Ctrl + Alt + O + P**. The following configurations are available:
 
