@@ -9,3 +9,4 @@ This repository contains setup guides for game tracking applications used at gam
 | **Forza Motorsport**  | Tracker setup for Forza Motorsport events | [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/forza-motorsport) |
 | **EA SPORTS™ F1® 24** | Tracker setup for F1® 24 events           |      [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/f1-24)       |
 | **EA SPORTS™ F1® 25** | Tracker setup for F1® 25 events           |      [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/f1-25)       |
+| **Counter-Strike 2**  | Tracker setup for CS2 events              |       [View Guide »](https://github.com/iplaydk/docs-trackers/tree/main/cs2)        |
